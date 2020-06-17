@@ -1,0 +1,17 @@
+let number = 15;
+const other = 16;
+
+if(number == other) {
+    print "The numbers are equal";
+} else {
+    print "The numbers are different";
+}
+
+define square(num) {
+    return (num * num);
+}
+
+for(let i = 0; i <= 10; i++) {
+    let res = number * i;
+    print number + " x " + " = " + res;
+}
